@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #39ad31b4;
+}
+
+header {
+  background-color: #39ad31;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 80px 24px 24px;
+}
+
+header img {
+  margin-left: 5%;
+}
+
+header nav a {
+  color: #fff;
+  padding: 22px;
+  text-decoration: none;
+}
+
+img {
+  border-radius: 40px;
+}
+
+#apresentacao,
+#polda {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  padding: 24px 80px;
+  position: relative;
+}
+
+#design_jardins,
+#gramado {
+  display: flex;
+  align-items: center;
+  padding: 48px 80px;
+  position: relative;
+}
+
+#design_jardins {
+  background-color: #39ad3152;
+  border-radius: 1000px 0 0 1000px;
+}
+
+#gramado {
+  background-color: #39ad3152;
+  border-radius: 0 1000px 1000px 0;
+}
+
+#limpeza {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  padding: 80px;
+  position: relative;
+}
+
+#limpeza .paragrafo {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#limpeza img {
+  margin-top: 36px;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 650;
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+
+.paragrafo {
+  line-height: 150%;
+  max-width: 90%;
+  margin-bottom: 32px;
+}
+
+.buttom {
+  background-color: #39ad31;
+  color: #fff;
+  border-radius: 10px;
+  padding: 24px;
+  text-decoration: none;
+}
+
+#duvidas {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  background-color: #39ad3152;
+  padding: 64px 80px;
+  margin: 0px 80px 0px 80px;
+  border-radius: 30px 30px 0 0;
+}
+
+.duvida h3 {
+  border: 2px solid #39ad31;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 24px;
+}
+
+.duvida p {
+  border-right: 1px solid #39ad31;
+  border-bottom: 1px solid #39ad31;
+  border-left: 1px solid #39ad31;
+  border-radius: 0 0 10px 10px;
+  max-width: 100%;
+  margin-top: -38px;
+  padding: 0 24px;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+.duvida.active .paragrafo {
+  height: fit-content;
+  opacity: 1;
+  padding: 24px;
+}
+
+footer {
+  background-color: #39ad31bb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+  padding: 64px 80px;
+}
+
+footer a {
+  color: #000;
+  display: block;
+  margin-bottom: 16px;
+  text-decoration: none;
+}
+
+footer img,
+footer .tittle {
+  display: flex;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+footer div p a {
+  max-width: 350px;
+  text-decoration: underline;
+}
+
+#copyright {
+  background-color: #8c979b;
+  color: #000;
+  text-align: center;
+  padding: 30px;
+}
+
+#copyright a {
+  color: #000;
+}
