@@ -13,6 +13,7 @@ header {
   background-color: #39ad31;
   display: flex;
   align-items: center;
+  gap: 40px;
   justify-content: space-between;
   padding: 24px 80px 24px 24px;
 }
@@ -23,7 +24,8 @@ header img {
 
 header nav a {
   color: #fff;
-  padding: 22px;
+  font-size: 1.3em;
+  padding: 0 24px 0 0;
   text-decoration: none;
 }
 
